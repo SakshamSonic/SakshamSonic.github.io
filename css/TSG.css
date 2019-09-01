@@ -1,0 +1,426 @@
+﻿
+div {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.button-1 {
+    border: 2px solid #f7b157;
+    height: 25px;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    background: none;
+}
+
+
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid red;
+    background: blueviolet;
+}
+
+.form-box {
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    margin-bottom: 10px;
+    height: 45px;
+}
+
+.form-inline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+
+body {
+    background-color: rgb(246, 246, 246);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.container {
+    width: 100%;
+}
+
+.parent-box-1 {
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.social-box-1 {
+    background: #ff4b1f; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #1fddff, #ff4b1f); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #1fddff, #ff4b1f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: block;
+    border-radius: 20px;
+    color: white;
+}
+
+.social-box-2 {
+    background: #8360c3; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #2ebf91, #8360c3); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: block;
+    border-radius: 20px;
+    color: white;
+}
+
+.social-box-3 {
+    background: #fc00ff; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #00dbde, #fc00ff); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: block;
+    border-radius: 20px;
+    color: white;
+}
+
+.parent-box-2 {
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+
+.parent-box-3 {
+    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+}
+
+.parent-box-4 {
+    background-image: linear-gradient(to left, #ff0844 0%, #ffb199 100%);
+}
+
+.parent-box {
+    display: block;
+    border-radius: 20px;
+    transition: box-shadow .3s;
+    transition-property: box-shadow, transform;
+    min-height: 33.33333333%;
+    padding: 20px;
+    box-shadow: rgba(36, 37, 38, 0.08) 0px 6px 15px 0px;
+    transition-timing-function: ease, ease;
+    margin-top: 10px;
+}
+
+.section-2 {
+    background-color: rgb(20,19,33);
+}
+
+.container-body {
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.parent-box-5 {
+    background: #c31432; /* fallback for old browsers */
+    background-image: linear-gradient(45deg, #37ecba 0%, #72afd3 100%);
+}
+
+.box {
+    transition: box-shadow .3s;
+    transition-property: box-shadow, transform;
+    min-height: 33.33333333%;
+    padding: 20px;
+    box-shadow: rgba(36, 37, 38, 0.08) 0px 6px 15px 0px;
+    transition-timing-function: ease, ease;
+    margin-top: 10px;
+}
+
+    .box:hover {
+        box-shadow: rgba(36, 37, 38, 0.2)0px 6px 15px 0px;
+    }
+
+.item {
+    background-color: #1EAAFC;
+    background-image: linear-gradient(130deg, #6C52D9 0%, #1EAAFC 85%, #3EDFD7 100%);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    color: #fff;
+    border-radius: 4px;
+    border: 6px solid #171717;
+}
+/*
+*row{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+*/
+
+
+.gap-box {
+    min-width: 1%;
+    background-color: transparent;
+}
+
+.box-1 {
+    background: rgb(255, 255, 255);
+    display: block;
+    border-radius: 20px;
+    color: rgb(106, 105, 105);
+}
+
+.box-2 {
+    background: rgb(255, 255, 255);
+    display: block;
+    border-radius: 20px;
+    color: rgb(106, 105, 105);
+}
+
+.box-3 {
+    background: rgb(255, 255, 255);
+    display: block;
+    border-radius: 20px;
+    color: rgb(106, 105, 105);
+}
+
+.box-4 {
+    display: block;
+    border-radius: 20px;
+}
+
+.hero-image {
+    /* The image used */
+    background-image: url("images/HERO-IMG-PARTS/BG1.jpg");
+    /* Set a specific height */
+    min-height: 750px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.ilogo {
+    display: block;
+    float: left;
+    height: 40px;
+    width: 40px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+.bg-img {
+    height: 100%;
+    background: url(images/2.jpg)no-repeat center;
+    background-size: 1920px;
+}
+
+#banner-text-header-n {
+    font-family: 'Keep Calm', serif;
+    font-size: 50px;
+}
+
+.serv-text-s {
+    font-family: 'Keep Calm', serif;
+    color: #009f96;
+}
+
+.serv-text-p {
+    font-family: 'Keep Calm', serif;
+    color: #c9302c;
+}
+
+
+#banner-text-header-sn {
+    font-family: 'Keep Calm', serif;
+    font-size: 30px;
+}
+
+
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+    color: #ededed;
+}
+
+.header {
+    background-color: rgba(160, 160, 160, .50);
+    color: #fff;
+    border-color: #080808;
+    height: 50px;
+    border: 1px solid transparent;
+}
+
+.htext {
+    color: #fff;
+    font-family: "Keep Calm";
+    float: left;
+    font-size: 12px;
+    font-weight: normal;
+    padding-top: 5px;
+}
+
+.cname {
+    font-family: "Keep Calm";
+
+    color: #eeeeee;
+    font-size: 20px;
+    float: left;
+    height: 50px;
+    padding: 15px 15px 15px 15px;
+}
+
+.inner-header {
+    width: 80%;
+    margin: auto;
+}
+
+.logo {
+    float: left;
+    height: 50px;
+    padding: 5px 0px 5px 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header-link {
+    float: right;
+    font-size: 14px;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.content {
+    min-height: 600px;
+}
+
+.banner-image {
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    height: 550px;
+    /*background-color: #f8f8f8;
+                  background:url(images/bg3.jpg) no-repeat center;*/
+    background-size: cover;
+}
+
+.inner-banner-image {
+    padding-top: 12%;
+    width: 80%;
+    margin: auto;
+}
+
+.banner-logo {
+    float: right;
+}
+
+
+.banner-content {
+    position: relative;
+    text-align: left;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    overflow: auto;
+    margin-bottom: 12%;
+    /*  background-color: rgba(0,0,0, .5);    */
+    max-width: 600px;
+    color: #f8f8f8;
+    border-radius: 5px;
+}
+
+.services {
+    background-color: #daffff;
+}
+
+
+
+.button-s {
+    color: #fff;
+    background-color: #009f96;
+    border-color: #ac2925;
+    box-shadow: inset 0 3px 5px rgba(231,245,222, 0.125);
+    padding: 15px 16px;
+    font-size: 18px;
+    font-family: 'Bree Serif', serif;
+    border-radius: 100px
+}
+
+.button-p {
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+    box-shadow: inset 0 3px 5px rgba(231,245,222, 0.125);
+    padding: 15px 16px;
+    font-size: 18px;
+    font-family: 'Bree Serif', serif;
+    border-radius: 100px
+}
+
+.button {
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+    box-shadow: inset 0 3px 5px rgba(231,245,222, 0.125);
+    padding: 15px 16px;
+    font-size: 18px;
+    font-family: 'Bree Serif', serif;
+    border-radius: 6px
+}
+/*
+.container{width:90%;
+           margin:auto; 
+           overflow:hidden;
+           color: #00beac;
+
+}
+*/
+.items {
+    width: 30%;
+    display: block;
+    /* padding: 4px; */
+    margin-bottom: 20px;
+    /*  line-height: 1.42857143;  */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    float: left;
+    margin-left: 1%;
+}
+
+.thumbnail {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.caption-s {
+    color: #009f96;
+    padding: 0px 10px 10px;
+    font-weight: normal;
+    text-align: center;
+    font-family: "Keep Calm";
+}
+
+.caption-p {
+    color: #c9302c;
+    padding: 0px 10px 10px;
+    font-weight: normal;
+    text-align: center;
+    font-family: "Keep Calm";
+}
